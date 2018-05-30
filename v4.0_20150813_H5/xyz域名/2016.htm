@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IT极客组织xyz新域名升级网站</title>
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/countdown.css"/>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/countdown.js"></script>
+<script type="text/javascript" src="js/flip_counter.js"></script>
+<script type="text/javascript">
+(function($){
+	$(function(){
+		var endTime = new Date($('#flip-counter').data('date'));
+		var finished = false;
+		var countdown = $.Countdown({
+			endTime:endTime,
+			afterFinish: function() {
+				finished = true;
+			}
+		});
+		var myCounter = new flipCounter('flip-counter', {
+			dateFormat:true,
+			value:countdown.toString(),
+			auto:false,
+			tFH:20,
+			bFH:20,
+			bOffset:200,
+			fW:30,
+			speed:40
+			});
+		var intervalId = setInterval(function() {
+			if (finished) {
+				clearInterval(intervalId);
+				return;
+			}
+			countdown.update();
+			myCounter.setValue(countdown.toString())
+		}, 1000);
+	});
+})(jQuery)
+</script>
+</head>
+<body>
+
+<div id="hero_outer">
+	
+	<div id="flip-counter" class="flip-counter" data-date="janu 2,2015 00:00:00"></div>
+
+</div>
+
+<p align="center"><font size="7">&nbsp;网 站 正 在 转 移 , 敬 请 期 待</font></p>
+
+</body>
+</html>
