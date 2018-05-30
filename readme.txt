@@ -1,8 +1,26 @@
 CITG历届官网开源。
 4.0之前基本不具有代码借鉴意义，均为临时版本。
-v1：2014年12月30日前后上线，为2015年迎新临时赶制，首个域名为itgk.tk，最初部署在LINSIR的个人电脑上。使用frompage制作，图片与文件罗列，没有使用任何样式。
-v2：2015年1月10日前后上线，以简单替代丑到不行的临时版本。仍使用frompage制作，对内容和界面进行了重绘。
-v3：2015年5月2日前后上线，尝试模仿H5界面效果。仍使用frompage制作，页面效率极低。
-v4：2015年8月13日前后上线，使用网络模板进行改写。
+v1：
+	2014年12月30日前后上线，为2015年迎新临时赶制，首个域名为itgk.tk，最初部署在LINSIR的个人电脑上。使用frompage制作，图片与文件罗列，没有使用任何样式，编码也存在问题。
+	包含最初的加入指引和上线倒计时。
+	预览：http://htmlpreview.github.io/?https://github.com/CITG-Team/CITG-index_old/blob/master/v1_20141230_WEB1.0/index.htm
+v2：
+	2015年1月10日前后上线，以简单替代丑到不行的临时版本，域名更换为itgk.xyz。仍使用frompage制作，对内容和界面进行了重绘，但依旧存在编码问题。
+	包含更新了内容的加入指引和域名切换及跳转页面。
+	预览：http://htmlpreview.github.io/?https://github.com/CITG-Team/CITG-index_old/blob/master/v2_20150110_sky/index.htm
+v3：
+	2015年5月2日前后上线，尝试模仿H5界面效果。仍使用frompage制作，页面效率极低，编码仍存在问题。
+	包含了BBS所需广告图片和15年全体会议专题。
+	预览：http://htmlpreview.github.io/?https://github.com/CITG-Team/CITG-index_old/blob/master/v3_20150502_H5Preview/index.htm
+v4：
+	2015年8月13日前后上线，启用chinaitgeek.cn域名，使用网络模板进行改写。
+	包含停用tk和xyz域名的跳转页面。
+	预览：http://htmlpreview.github.io/?https://github.com/CITG-Team/CITG-index_old/blob/master/v4.0_20150813_H5/index.html
+v4.6：
 	2015年11月27日前后进行大调整，内容全面更新。
-v5：2016年3月前后上线，使用至闭站。随着LINSIR的站长技能趋于成熟，这个版本是五个版本之中各项效果最好的版本。
+	包含新增加的人事网。
+	预览：http://htmlpreview.github.io/?https://github.com/CITG-Team/CITG-index_old/blob/master/v4.6_20151127_H5/index.html
+v5：
+	2016年3月前后上线，使用至闭站。随着LINSIR的站长技能趋于成熟，这个版本是五个版本之中各项效果最好的版本。
+	包含黑页、寒武博客、商城跳转等页面，是下线前最后的备份版本，尽在上传前删除了导航相关文件以减轻体积。
+	预览：http://htmlpreview.github.io/?https://github.com/CITG-Team/CITG-index_old/blob/master/v5.0_201603_blue/index.html
